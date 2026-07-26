@@ -2,10 +2,10 @@
 
 // clearing console and giving user instuctions
 Console.Clear();
-Console.WriteLine("Welcome to the Maze!!");
-Console.WriteLine("Use the arrow keys to move around the maze");
-Console.WriteLine("Reach the (*) to escape or hit the 'escape' key to quit");
-Console.WriteLine("Press any key to begin and good luck!!");
+Console.WriteLine("        ------===== Welcome to the Maze!! =====------");
+Console.WriteLine("         Use the arrow keys to move around the maze");
+Console.WriteLine(" Navigate to the (*) to win or hit the 'escape' key to quit");
+Console.WriteLine("           Press any key to begin and good luck!!");
 Console.ReadKey(true); // change from instuctions to map
 
 Console.Clear();
@@ -62,9 +62,9 @@ static void TryMove(int proposedTop, int proposedLeft, string[] mazeRows)
     {
         if (proposedLeft >= 0 && proposedLeft < mazeRows[proposedTop].Length && proposedLeft< Console.BufferWidth)//checking to make sure lateral movement is good AFTER making sure the row is valid
         {
-            if (mazeRows[proposedTop][proposedLeft] != '#')
+            if (mazeRows[proposedTop][proposedLeft] != '#')// making the walls walls with the same logic as used to win the game
             {
-            Console.CursorTop = proposedTop;
+            Console.CursorTop = proposedTop;// if it passes this maze of tests then the propsed move by the user can actually happen
             Console.CursorLeft = proposedLeft;
             }
         }
