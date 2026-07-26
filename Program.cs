@@ -32,18 +32,31 @@ do // arrows actually move you around!!
     }
     else if (key == ConsoleKey.UpArrow)
     {
-        Console.CursorTop--;
+        TryMove(Console.CursorTop -1, Console.CursorLeft, mapRows);
     }
     else if (key == ConsoleKey.DownArrow)
     {
-        Console.CursorTop++;
+        TryMove(Console.CursorTop + 1, Console.CursorLeft, mapRows);
     }
     else if (key == ConsoleKey.LeftArrow)
     {
-        Console.CursorLeft--;
+        TryMove(Console.CursorTop, Console.CursorLeft - 1, mapRows);
     }
     else if (key == ConsoleKey.RightArrow)
     {
-        Console.CursorLeft++;
+        TryMove(Console.CursorTop, Console.CursorLeft + 1, mapRows);
     }
 } while (true);
+
+//building TryMove method
+static void TryMove(int proposedTop, int proposedLeft, string[] mazeRows)
+{
+    if (proposedTop >= 0 && proposedTop < mazeRows.Length && proposedTop < Console.BufferHeight) //checking if vertical movement is valid first
+    {
+        if (proposedLeft >= 0 && proposedLeft < mazeRows[proposedTop].Length && proposedLeft< Console.BufferWidth)//checking to make sure lateral movement is good AFTER making sure the row is valid
+        {
+            Console.CursorTop = proposedTop;
+            Console.CursorLeft = proposedLeft;
+        }
+    }
+}
