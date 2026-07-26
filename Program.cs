@@ -62,8 +62,11 @@ static void TryMove(int proposedTop, int proposedLeft, string[] mazeRows)
     {
         if (proposedLeft >= 0 && proposedLeft < mazeRows[proposedTop].Length && proposedLeft< Console.BufferWidth)//checking to make sure lateral movement is good AFTER making sure the row is valid
         {
+            if (mazeRows[proposedTop][proposedLeft] != '#')
+            {
             Console.CursorTop = proposedTop;
             Console.CursorLeft = proposedLeft;
+            }
         }
     }
 }
