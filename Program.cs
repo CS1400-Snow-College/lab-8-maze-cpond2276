@@ -46,7 +46,14 @@ do // arrows actually move you around!!
     {
         TryMove(Console.CursorTop, Console.CursorLeft + 1, mapRows);
     }
+    if (mapRows[Console.CursorTop][Console.CursorLeft] == '*')//checking to see if cursor is on the finsihing point(could add multple finishing points with this method)
+    {
+        break;
+    }
 } while (true);
+
+Console.Clear();
+Console.WriteLine("Congrats!! You've made it through the maze!!");
 
 //building TryMove method
 static void TryMove(int proposedTop, int proposedLeft, string[] mazeRows)
