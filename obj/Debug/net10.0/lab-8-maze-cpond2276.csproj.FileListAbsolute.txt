@@ -1,0 +1,15 @@
+C:\Users\carso\code\lab-8-maze-cpond2276\bin\Debug\net10.0\lab-8-maze-cpond2276.exe
+C:\Users\carso\code\lab-8-maze-cpond2276\bin\Debug\net10.0\lab-8-maze-cpond2276.deps.json
+C:\Users\carso\code\lab-8-maze-cpond2276\bin\Debug\net10.0\lab-8-maze-cpond2276.runtimeconfig.json
+C:\Users\carso\code\lab-8-maze-cpond2276\bin\Debug\net10.0\lab-8-maze-cpond2276.dll
+C:\Users\carso\code\lab-8-maze-cpond2276\bin\Debug\net10.0\lab-8-maze-cpond2276.pdb
+C:\Users\carso\code\lab-8-maze-cpond2276\obj\Debug\net10.0\lab-8-maze-cpond2276.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carso\code\lab-8-maze-cpond2276\obj\Debug\net10.0\lab-8-maze-cpond2276.AssemblyInfoInputs.cache
+C:\Users\carso\code\lab-8-maze-cpond2276\obj\Debug\net10.0\lab-8-maze-cpond2276.AssemblyInfo.cs
+C:\Users\carso\code\lab-8-maze-cpond2276\obj\Debug\net10.0\lab-8-maze-cpond2276.csproj.CoreCompileInputs.cache
+C:\Users\carso\code\lab-8-maze-cpond2276\obj\Debug\net10.0\lab-8-maze-cpond2276.sourcelink.json
+C:\Users\carso\code\lab-8-maze-cpond2276\obj\Debug\net10.0\lab-8-maze-cpond2276.dll
+C:\Users\carso\code\lab-8-maze-cpond2276\obj\Debug\net10.0\refint\lab-8-maze-cpond2276.dll
+C:\Users\carso\code\lab-8-maze-cpond2276\obj\Debug\net10.0\lab-8-maze-cpond2276.pdb
+C:\Users\carso\code\lab-8-maze-cpond2276\obj\Debug\net10.0\lab-8-maze-cpond2276.genruntimeconfig.cache
+C:\Users\carso\code\lab-8-maze-cpond2276\obj\Debug\net10.0\ref\lab-8-maze-cpond2276.dll
